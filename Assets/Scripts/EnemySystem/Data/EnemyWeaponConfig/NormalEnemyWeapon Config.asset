@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155c6e4695459d74da70d4d752f0f36e, type: 3}
+  m_Name: NormalEnemyWeapon Config
+  m_EditorClassIdentifier: 
+  fireRate: 0.1
+  ammoCapacity: 3
+  reloadTime: 1.5
+  baseDamage: 20
+  projectileConfig: {fileID: 11400000, guid: 4bc399cc977a6d849938ddf2a984b8fe, type: 2}
+  meleeAttackRange: 3
+  aiAttackRange: 50
